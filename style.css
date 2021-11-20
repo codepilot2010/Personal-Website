@@ -58,7 +58,8 @@ h2 {
     width: 70px;
     margin: 8px auto;
 }
- p {
+
+p {
     max-width: 450px;
     margin: 25px auto;
     font-size: 17px;
@@ -71,7 +72,8 @@ h2 {
     text-align: center;
     vertical-align: middle;
 }
-.menu{
+
+.menu {
     list-style: none;
     font-family: fantasy;
     position: absolute;
@@ -80,7 +82,8 @@ h2 {
     z-index: 10;
     cursor: pointer;
 }
-.links{
+
+.links {
     float: left;
     color: cornflowerblue;
     padding-top: 5px;
@@ -90,6 +93,38 @@ h2 {
     font-family: fantasy;
     font-size: 20px;
 }
-.links:hover{
+
+.links:hover {
     background-color: beige;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article: hover {
+    color: burlywood;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#work {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+#writings {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+#videos {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
 }
